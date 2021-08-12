@@ -41,7 +41,7 @@ steps:
   inputs:
     command: restore
     restoreSolution: '**/*.sln'
-    feedToUse: select
+    feedsToUse: select
     vstsFeed: Space Game - web - Dependencies/Tailspin.SpaceGame.Web.Models
 
 - task: DotNetCoreCLI@2
